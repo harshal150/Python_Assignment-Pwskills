@@ -1,0 +1,137 @@
+Q1. What is an API? Give an example, where an API is used in real life.
+ANSWER:-
+
+*API*
+Application Programming Interface (API) is a software interface that allows two applications to interact with each other without any user intervention.
+
+API is a collection of software functions and procedures. In simple terms, API means a software code that can be accessed or executed.
+
+API is defined as a code that helps two different software’s to communicate and exchange data with each other.
+
+It offers products or services to communicate with other products and services without having to know how they’re implemented.
+
+
+API is used in real life
+API is used in mobile application like Gpay, PhnPay, PayPall, Bank application, Ola, Ubar othe tranportable application, linkedin application etc.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Q2. Give advantages and disadvantages of using API.
+
+ANSWER:-
+
+Advantage of API:
+Efficiency In Terms of Time
+API testing may begin much earlier in the development cycle than GUI testing since it does not need the GUI to be completed. Automated API testing helps you speed up the feedback loop and identify problems faster since they give test results much more quickly and substantially expedite development processes.
+
+In addition, API tests take a lot less time than UI tests to complete. There is no comparison between UI testing and API tests when it comes to rendering and loading time. Let's say that registering and logging in via the user interface takes 3 to 5 minutes, while API testing just takes 30 seconds.
+
+Lowered Expenses
+It has a strong connection to the concept of time effectiveness.
+
+There's a strong correlation between this advantage and the preceding one in terms of cost-effectiveness. The improved speed at which automated API tests may be executed results in more effective and efficient use of resources, which in turn reduces testing expenses.
+
+Before doing any GUI testing, API tests may be run as soon as the business logic is established. As a result, you'll be able to catch the problem early on. Early detection reduces the cost of application modifications since fixing it is less costly. To keep project expenses down, API testing allows the QA team to identify and fix problems early on.
+
+Independent Of Technological Advancement
+Since the data is sent using JSON or XML and compromised HTTP requests and HTTP replies, API testing is language-independent. As a result, the QA team is allowed to use any language that works with these technologies (JavaScript, Java, Ruby, Python, PHP, etc.).
+
+A Greater Level of Stability In The Testing
+API interfaces, in contrast to graphical user interfaces (GUIs), are extremely stable and do not alter to suit new demands from stakeholders and users. To ensure that QA engineers have quick access to updated test suites, APIs are usually included with extensive documentation. API tests are also considerably simpler to maintain as a result of their inherent stability.
+
+Improved Test Coverage
+The breadth and level of detail of automated API testing are often greater than that of unit tests. In contrast to the narrow emphasis of unit tests, which look at the individual functionalities of an application as a whole, issues often emerge when a project has many layers.
+
+Unit tests won't catch these bugs, but API tests are specially designed to ensure that all system components work as intended before they are used. API testing aids in the discovery of interface, server, and database flaws, resulting in improved overall software quality and a better user experience for end-users.
+
+Disadvantages of API:
+
+Data security is the main disadvantage of API
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Q3. What is a Web API? Differentiate between API and Web API.
+
+ANSWER:-
+
+Web API
+A Web API is an application programming interface which is use either for web server or a web browser.
+
+Two types of Web APIs are 1) Server-side API 2) Client-side API
+
+a)Server-side:
+Server-side web API is a programmatic interface that consist of one or more publicly exposed endpoints to a defined request–response message system. It is typically expressed in JSON or XML
+
+b)Client-side:
+A client-side web API is a programmatic interface helps to extend functionality within a web browser or other HTTP client.
+
+Examples of web API:
+Google Maps API’s allow developers to embed Google Maps on webpages by using a JavaScript or Flash interface. YouTube API allows developers to integrate YouTube videos and functionality into websites or applications. Twitter offers two APIs. The REST API helps developers to access Twitter data, and the search API provides methods for developers to interact with Twitter Search. Amazon’s API gives developers access to Amazon’s product selection.
+
+Differentiate between API and Web API :
+API is an umbrela term and web API is a classification of API it can be done through https( HyperText Transfer Protocol)
+
+API also can be TCP (Transfer control protocol) or TCPIP web API can be done through HTTPS
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+
+ANSWER:-
+
+SOAP
+
+SOAP stands for Simple Object Access Protocol is a network platform used in a web service to exchange or communicate data between two different machines on a network. It uses the XML format of data to transfer messages over the HTTP protocol. In Web services, SOAP allows the user request to interact with other programming languages. In this way, it provides a way to communicate between applications running on different platforms (Operating system), with programming languages and technologies used in web service.
+
+It is an open standard protocol used in the web service to communicate via internet.
+
+It is used to broadcast a message over the network.
+
+It is used to call remote procedures and exchange documents.
+
+It can be used on any platform and can support multi-languages. So, it is a platform and language independent.
+
+It uses the XML format to send messages over the HTTP protocol.
+
+The structure of a SOAP message consists of an envelope, header, and body element.*
+
+REST
+
+REST stands for REpresentational State Transfer. It is an architectural style that provides standards between computer systems on a web service. It is a set of constraints used to create a lightweight, scalable, and maintainable web service that facilitates easy communication. It is a set of constraints used to create a lightweight, scalable and maintainable web service that makes easy communication with each other. All web services are based on the REST; hence it is called a RESTful service. The purpose of developing a RESTful web service is to make the web service more effective. The Roy Fielding develops it in 2000, who also developed the HTTP protocol. It does not depend on a specific protocol to use, but it's used HTTP/HTTPS.
+REST Characteristics
+It is a Stateless server.
+It supports JSON and XML
+It is simple than SOAP.
+It has well-maintained documentation that reflect each change in the architectures of the REST.
+It is a simple approach to build the client and server service.
+It follows standard protocol such as HTTP, HTTPS and FTP.
+It provides a way to connect with server-side applications.
+It is based on architectural style for designing simple, lightweight, and distributed web services compared to SOAP.
+Examples of REST Systems are -Google Glass API, Amazon web services, Atom, Tesla Model S.
+Constraint and the Principles of REST
+Client-Server
+Stateless Server
+Cacheable
+Uniform Interface
+Layered System
+Q5. Differentiate between REST and SOAP.
+ANS
+Soap
+SOAP provides the following advantages when compared to REST:
+Language, platform, and transport independent (REST requires use of HTTP)
+Works well in distributed enterprise environments (REST assumes direct point-to-point communication)
+Standardized
+Provides significant pre-build extensibility in the form of the WS* standards
+Built-in error handling
+Automation when used with certain language products
+REST
+REST is easier to use for the most part and is more flexible. It has the following advantages over SOAP:
+No expensive tools require to interact with the web service
+Smaller learning curve
+Efficient (SOAP uses XML for all messages, REST can use smaller message formats)
+Fast (no extensive processing required)
+Closer to other web technologies in design philosophy
+
+----------------------------------------------------------------------------------------------------------------------------
